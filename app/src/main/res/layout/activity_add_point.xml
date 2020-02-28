@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="500dp"
+    android:layout_height="500dp"
+    android:background="@color/colorPrimaryDark"
+    android:layout_gravity="center">
+
+    <EditText
+        android:id="@+id/xCoordinates"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:ems="10"
+        android:maxLength="9"
+        android:hint="@string/xCoordinates"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:inputType="numberDecimal"
+        android:layout_gravity="center" />
+
+    <EditText
+        android:id="@+id/yCoordinates"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:ems="10"
+        android:hint="@string/yCoordinates"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:maxLength="9"
+        android:inputType="numberDecimal"
+        android:layout_gravity="center"/>
+
+    <EditText
+        android:id="@+id/zCoordinates"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:ems="10"
+        android:hint="@string/zCoordinates"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:maxLength="9"
+        android:inputType="numberDecimal"
+        android:layout_gravity="center" />
+
+    <Button
+        android:id="@+id/saveButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/save"
+        android:layout_marginTop="32dp"
+        android:layout_gravity="center"/>
+    <Button
+        android:id="@+id/cancelButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cancel"
+        android:onClick="cancelClicked"
+        android:layout_marginTop="32dp"
+        android:layout_gravity="center"/>
+
+</LinearLayout>

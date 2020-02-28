@@ -1,0 +1,21 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('Compile Stage') {
+            steps {
+                withGradle(gradle: 'Gradle 5.4.1')
+            }
+        }
+        stage ('Testing Stage') {
+            steps {
+                withGradle(gradle: 'Gradle 5.4.1')
+             }
+        }
+        stage ('Deployment Stage') {
+            steps {
+                withGradle(gradle: 'Gradle 5.4.1')
+            }
+         }
+    }
+}

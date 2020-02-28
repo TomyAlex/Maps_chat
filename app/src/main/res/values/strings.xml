@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Maps Chat</string>
+
+    <!--  Screen names  -->
+    <string name="maps_activity">Maps</string>
+
+    <!--  Items names  -->
+    <string name="backgroundImage">backgroundImage</string>
+
+    <string name="logIn">Login</string>
+    <string name="signUp">Sign up</string>
+
+    <!--  Maps Activity  -->
+    <string name="currentLocation"> CurrentLocation</string>
+
+    <!-- Add Point Activity   -->
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="xCoordinates">X Coordinates</string>
+    <string name="yCoordinates">Y Coordinates</string>
+    <string name="zCoordinates">Z Coordinates</string>
+
+</resources>
